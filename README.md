@@ -8,10 +8,12 @@
 
 <h4 align="center">Demonstração de Node, Docker e docker-compose.</h4>
 
+<br>
+
 ## Dependências
 
-* Docker
-* docker-compose
+* [Docker](https://www.docker.com/)
+* [docker-compose](https://docs.docker.com/compose/)
 
 ## Uso
 
@@ -19,5 +21,8 @@
 $ git clone https://github.com/thassiov/nddc.git <dir>
 $ cd <dir>
 $ docker-compose up --build
-
 ```
+
+## Licença
+
+[MIT](LICENSE)
