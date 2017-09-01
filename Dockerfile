@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8-alpine
 
 ADD ./package.json /tmp/package.json
 RUN mkdir /src && cd /tmp && npm install
